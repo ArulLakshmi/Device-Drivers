@@ -1,0 +1,38 @@
+1) init :
+Started by the kernel during the booting process and runs till the system is shut down.
+It is the direct or indirect ancestor of all other processes and automatically adopts all orphaned processes. 
+
+2) atd :
+It is a job scheduler daemon that runs jobs scheduled for later execution. 
+These jobs are one-time task(not recurring) at a specific time scheduled using ‘at’ or ‘batch’ utility.
+
+3) httpd :
+Hypertext Transfer Protocol daemon answers the request automatically and serves the hypertext and multimedia documents over the Internet using HTTP.
+
+4) syslogd :
+System logger process that collects various system messages.
+
+5) rngd :
+It checks and feeds random data from hardware device to kernel
+It feeds data from a random number generator to the kernel's random number entropy pool, after first checking the data to ensure that it is properly random.
+
+6) sshd :
+Secure Shell Daemon (SSH daemon or sshd) is an alternative to rlogin and rsh and provides encrypted communications between two 
+untrusted hosts over an insecure network. The sshd is the daemon that listens for connections from clients on port 22.
+
+7) xinetd :
+xinetd (Extended Internet Service Daemon) is an open-source super-server daemon that manages Internet-based connectivity.
+It listens for incoming requests over a network and launches the appropriate service for that request.
+It can be used to start services with both privileged and non-privileged port numbers.
+
+8) nmbd :
+NetBIOS Message Block Daemon(nmbd) understands and replies to NetBIOS name service requests such as those produced by SMB/CIFS in Windows-based systems.
+It provides file sharing and printing services to Windows clients.
+
+9) crond :
+It is a long-running process that executes commands at specific dates and times.
+It can be used to schedule activities, either as one-time events or as recurring tasks.
+
+10) routed :
+Manages the network routing tables in the kernel.
+It finds interfaces to directly connected hosts and networks that are configured into the system and marked as up. 

@@ -11,7 +11,8 @@ These jobs are one-time task(not recurring) at a specific time scheduled using â
 Hypertext Transfer Protocol daemon answers the request automatically and serves the hypertext and multimedia documents over the Internet using HTTP.
 
 4) syslogd :
-System logger process that collects various system messages.
+It provides a message logging facility for application and system processes.
+Internet server applications and components use the syslog daemon for logging purposes and can also send trace information to the syslog daemon.
 
 5) rngd :
 It checks and feeds random data from hardware device to kernel

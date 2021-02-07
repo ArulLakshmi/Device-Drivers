@@ -1,3 +1,4 @@
+List of 10 Daemons running in machine :
 1) init :
 Started by the kernel during the booting process and runs till the system is shut down.
 It is the direct or indirect ancestor of all other processes and automatically adopts all orphaned processes. 

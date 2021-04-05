@@ -1,1 +1,2 @@
-
+The program tries to create and write into a file in the kernel space which results in the following segmentation fault error as shown below :
+![alt text](https://drive.google.com/file/d/183kT9fwHKipJk7DunisYLFXNGCmctc0E/view?usp=sharing)

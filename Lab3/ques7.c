@@ -8,6 +8,8 @@ int main()
 	FILE *fptr;
 
 	// creating a file and opening in write mode
+	/*It tries to  create a file in /sys directory which is the interface to the kernel 
+	and this results in error as a process cannot directly access the kernel space*/ 
 	fptr = fopen("/sys/program.txt", "w");
 
 	printf("Enter a line to be added to the file:\n");
